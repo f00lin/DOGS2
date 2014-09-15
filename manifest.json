@@ -1,0 +1,17 @@
+{
+  "name": "¡ DOGS !",
+  "description": "Displays Doggies",
+  "version": "2.0",
+  "manifest_version": 2,
+  "offline_enabled": false,
+  "app": {
+    "background": {
+      "scripts": ["background.js"]
+    }
+  },
+  "icons": { "128": "noey.png" },
+  "permissions": [ "webview", "storage" ],
+  "sandbox": {
+        "pages": ["test.html"]
+        }
+}

@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<head>
+    <link rel="stylesheet" href="dogs21.css">
+</head>
+<body>
+    <nav class="randomiser">
+        <button id="boston" class="top"><img class="first" src="noey.png" /></button>
+        <button id="bull" class="top"><img class="second" src="bull2.png" /></button>
+        <button id="boxer" class="top"><img class="third" src="boxer.png" /></button>
+        <button id="video" class="top"><img class="fourth" src="video.png" /></button>
+        <button id="random" class="top"><img class="fifth" src="random.png" /></button>
+        <input id="searchbar" class="fifth" type="text" maxlength="20" size="40" placeholder="Search for dogs doing..." />
+    </nav>
+    
+    <div id="start" class="box">
+        <webview id="results"></webview>
+        <div id="hid" class="hidden">
+            <p class="speech fifth">Let's Find Puppies!</p>
+            <button id="go" class="start"><img class="message fifth" src="noey128.png"/></button>
+        </div>
+    </div>
+    
+    <script src="dogs21.js"></script>
+    <script src="jquery.js"></script>
+    <script src="start_animate.js"></script>
+</body>
